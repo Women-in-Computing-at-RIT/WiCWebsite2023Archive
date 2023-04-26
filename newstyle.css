@@ -1,0 +1,860 @@
+/*******
+
+    WIC WEBSITE 2021
+    BY AMY TAN (WIC WEBMASTER 2018 - 2021)
+
+
+*******/
+
+:root {
+    --accent: #4D1E5B;
+    --accent2: #FDC000;
+    --text: #2b2b2b;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 180%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.pgheading {
+    color: var(--accent);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    /* margin-top: 1.5em; */
+}
+
+.pgheading:first-of-type {
+    margin-top: 0;
+}
+
+.pgcontent a {
+    text-decoration: underline;
+}
+
+.scholarshipLine {
+    width: 100%;
+    height: 1px;
+    background: #bbb;
+    margin: 1.7em 0 1.5em 0;
+}
+
+.pgcontent b {
+    color: var(--accent);
+}
+
+p .pgbutton {
+    background: var(--accent);
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Sponsor page by Darlene*/
+#sponsorWrapper {
+    padding-top: 3em;
+    width: 80%
+}
+
+.giftButton {
+    background: var(--accent);
+    color: #fff;
+    /* padding: 10px 25px;
+    border-radius: 6px;
+    text-decoration: none; */
+}
+
+.imgShowcase {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    column-gap: 1em;
+    align-items: center;
+}
+
+.imgShowcase img {
+    width: 100%;
+}
+
+.imgShowcase.two {
+    grid-template-columns: auto auto;
+    justify-items: start;
+    justify-content: center;
+}
+
+.pgline {
+    background: var(--accent);
+    width: 75px;
+    height: 2px;
+    margin-top: 1em;
+}
+
+.ritlogo {
+    height: 45px;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    z-index: 5;
+    box-sizing: border-box;
+    padding: 10px 40px 0px 40px;
+    background: #fff;
+}
+
+.ritlogo img {
+    width: 250px;
+}
+
+nav,
+#mobilenav {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: var(--accent);
+    display: flex;
+    line-height: 80px;
+    vertical-align: middle;
+    padding: 0 40px;
+    z-index: 2;
+}
+
+#menubttn {
+    border: 0;
+    text-align: right;
+}
+
+#mobilenav {
+    justify-content: space-between;
+}
+
+.adddrop:hover {
+    cursor: pointer;
+    color: var(--accent2);
+}
+
+#mobileabt p,
+#mobileevt p,
+#mobilecmt p {
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 30px !important;
+}
+
+#mobilenav button {
+    padding: 0;
+    background: transparent;
+    color: #fff !important;
+    border: 0;
+    line-height: 80px;
+    font-size: 40px;
+    text-align: right;
+}
+
+#mobilenav button:focus {
+    outline: 0;
+}
+
+#dropdownmenu {
+    border-top: 1px solid #fff;
+    display: none;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: .7em;
+    width: 100vw;
+    background: var(--accent);
+    margin-left: -40px;
+}
+
+#dropdownmenu a {
+    color: #fff;
+}
+
+#mobileabt,
+#mobileevt,
+#mobilecmt {
+    display: none;
+}
+
+#dropdownmenu p {
+    margin: 0;
+    line-height: 50px;
+}
+
+#dropdownmenu a:hover {
+    color: var(--accent2);
+}
+
+.navlink {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navlink a {
+    color: #fff;
+}
+
+.navlink a:hover {
+    color: var(--accent2);
+}
+
+.navlink:hover .navhover {
+    display: block;
+}
+
+.navhover {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background: #fff;
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
+    line-height: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 200px;
+}
+
+.navhover a {
+    font-size: .8em;
+    ;
+    display: block;
+    color: var(--text);
+}
+
+.navhover a:hover {
+    color: var(--accent);
+}
+
+.dropbtn {
+    color: #fff;
+    font-size: 60px;
+    text-align: right;
+    line-height: 65px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#links {
+    font-size: .8em;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 40px;
+    margin-left: auto;
+}
+
+#links a {
+    margin-right: 1.5em;
+}
+
+#links a:last-child {
+    margin-right: 0;
+}
+
+#logo {
+    width: 75px;
+    vertical-align: middle;
+}
+
+header {
+    margin-top: 10vh;
+    width: 100vw;
+    height: 594px;
+    background: url(img/banner.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-items: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+        ". . ."
+        ". headerText ."
+        ". . .";
+    box-sizing: border-box;
+}
+
+#titles {
+    grid-area: headerText;
+    text-align: center;
+    letter-spacing: .05em;
+    padding: 0 3em;
+}
+
+#uni {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#org {
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-top: .8em;
+    line-height: 100%;
+    color: var(--accent);
+}
+
+section {
+    box-sizing: border-box;
+    padding: 4em;
+}
+
+#highlights {
+    padding: 4em 4em 5em 4em;
+}
+
+#intro {
+    color: #fff;
+    text-align: center;
+    background: var(--accent);
+}
+
+#intro a,
+.memberQuote a {
+    color: #fff;
+    box-shadow: 0 -1px #fff inset;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#intro a:hover,
+.memberQuote a:hover {
+    color: var(--accent);
+}
+
+#intro a:hover {
+    box-shadow: 0px -17px #fff inset;
+}
+
+.memberQuote a:hover {
+    box-shadow: 0px -25px #fff inset;
+}
+
+.sectionTitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+#upcoming .sectionTitle {
+    color: var(--accent);
+}
+
+.sectionText a {
+    color: var(--text);
+    box-shadow: 0 -1px var(--text) inset;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.sectionText a:hover {
+    color: #fff;
+    box-shadow: 0px -24px var(--accent) inset;
+}
+
+#intro .sectionText {
+    margin-top: 2.5em;
+}
+
+#upcoming .sectionText {
+    box-sizing: border-box;
+    display: grid;
+    font-size: 18px;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
+#intro .line {
+    background: #fff;
+    margin: auto;
+}
+
+#upcoming .line {
+    background: var(--accent);
+    margin-bottom: 2em;
+}
+
+.pgcontainer .line {
+    margin: 1.5em 0;
+    background: var(--accent);
+}
+
+.line {
+    width: 100px;
+    height: 8px;
+}
+
+.line.chLine {
+    width: 140px;
+    background: var(--accent);
+    margin-top: 1em;
+}
+
+#learnMore {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .7em;
+}
+
+.dates:first-child {
+    margin-top: 0em;
+}
+
+.eventTime {
+    margin-top: 1em;
+}
+
+.eventType {
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 1.2em;
+}
+
+#highlights {
+    background: var(--accent);
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#highlights .sectionTitle {
+    color: #fff;
+}
+
+.memberIcon {
+    text-align: center;
+}
+
+.icon {
+    margin: 1.5em auto auto auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.memberName {
+    font-weight: 700;
+    margin: 1em 0 .5em 0;
+    font-size: 1.5em;
+}
+
+.memberQuote {
+    margin: 1em 0 1em 0;
+    font-style: italic;
+}
+
+.memberQuote::before {
+    content: '\201C';
+    position: absolute;
+    z-index: 1;
+    margin-top: .15em;
+    font-style: normal;
+    font-family: Georgia;
+    font-size: 5em;
+    opacity: .5;
+    font-weight: 900;
+}
+
+/** Page styles **/
+
+.pgheading.chHeading {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 85px auto 0 auto;
+    padding-top: 5em;
+}
+
+/** wrapper used for no sidebar **/
+#fullpgWrapper {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 3em 0 4em 0;
+}
+
+footer {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+    line-height: 80px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 0 40px;
+    background: #eee;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+
+.ritinfo {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 13px;
+    line-height: 160%;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .ritinfo,
+    footer {
+        grid-template-columns: auto;
+    }
+
+    .ritadd,
+    .emailbttn {
+        margin-top: 1em;
+        text-align: left !important;
+    }
+
+    .emailbttn {
+        margin-top: -1em !important;
+    }
+}
+
+.ritinfo a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.ritinfo a:hover {
+    color: var(--accent2);
+}
+
+.ritadd {
+    text-align: right;
+}
+
+.socialmedia a {
+    margin-left: 1em;
+    color: #666;
+}
+
+.socialmedia a:hover {
+    color: var(--accent);
+}
+
+.socialmedia a:first-child {
+    margin-left: 0;
+}
+
+/* .emailbttn {
+    margin-left: 5%;
+    background-color: white;
+    width:400px;
+    border-radius: 60%;
+    display: flex;
+    align-contents:center;
+} */
+
+/* .emailbttn a {
+    color:#fff;
+    padding:.5em 1.5em;
+    font-size:15px;
+    box-sizing: border-box;
+    border-radius: 3px;
+} */
+
+#subbttn a:hover {
+    opacity: 0.8;
+}
+
+#subbttn {
+    color: var(--accent);
+    background: #fff;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#fullpgWrapper a {
+    text-decoration: underline;
+}
+
+#committeeWrapper {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: grid;
+    height: auto;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    grid-template-rows: auto;
+    padding-top: 3em;
+    row-gap: 3em;
+    font-size: .8em;
+    padding-bottom: 5em;
+}
+
+.chname,
+.chposition {
+    font-weight: 600;
+}
+
+.chposition {
+    color: var(--accent);
+}
+
+.chline {
+    width: 100%;
+    background: #bbb;
+    height: 1px;
+    margin: .5em 0 1.5em 0;
+}
+
+.chimg img {
+    width: 100%;
+}
+
+.chdescript,
+.chmeeting {
+    font-size: .9em;
+    margin-top: 1.5em;
+}
+
+.chmeeting {
+    color: var(--accent);
+}
+
+.CHGroupPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1330px) {
+    #committeeWrapper {
+        grid-template-columns: 45% 45%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #committeeWrapper {
+        grid-template-columns: 100%;
+    }
+}
+
+.pgcontainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 8em 0 6em 0;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 85px auto 0 auto;
+    grid-template-rows: auto;
+}
+
+.sidebarlinks a {
+    display: block;
+    color: var(--accent);
+}
+
+@media only screen and (max-width: 870px) {
+    nav {
+        display: none;
+    }
+
+    #mobilenav {
+        display: grid;
+    }
+}
+
+@media only screen and (min-width: 871px) {
+    #mobilenav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .pgcontainer {
+        grid-template-columns: 100%;
+    }
+
+    .imgShowcase,
+    .imgShowcase.two {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        justify-items: center;
+        row-gap: 1em;
+    }
+
+    .pgsidebar {
+        display: none;
+    }
+
+    .afterhourssidebar {
+        margin-bottom: 2em;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .pgcontainer {
+        padding: 4em 0 2em 0 !important;
+    }
+
+    .pgheading.chHeading {
+        padding-top: 4em;
+    }
+
+    #committeeWrapper {
+        padding-bottom: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    #upcoming .sectionText {
+        box-sizing: border-box;
+        display: grid;
+        font-size: 18px;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .newEvents {
+        margin-bottom: 3em;
+    }
+
+    .newEvents:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.mySlides,
+.alumniSlides,
+.afterhourSlides {
+    display: none
+}
+
+/* Slideshow container */
+.slideshow-container,
+.alumni-container,
+.afterhour-container {
+    width: 60vw;
+    margin: auto;
+    position: relative;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    margin-right: -3em;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    margin-left: -3em;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    color: var(--accent2);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.projectwrap {
+    font-size: 18px;
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: 150px 50px auto;
+    gird-template-rows: auto;
+    grid-template-areas:
+        "chimg . chinfo";
+}
+
+.projectwrap:first-of-type {
+    margin-top: 0;
+}
+
+.projectimg {
+    grid-area: chimg;
+}
+
+.projectimg img {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.projectinfo {
+    grid-area: chinfo;
+    margin-top: -.6em;
+}
+
+
+@media only screen and (max-width: 630px) {
+    .projectimg img {
+        display: none;
+    }
+
+    .projectwrap {
+        grid-template-columns: auto;
+
+    }
+}

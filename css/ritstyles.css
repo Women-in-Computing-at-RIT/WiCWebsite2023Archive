@@ -1,0 +1,62 @@
+#ritMetanavWrapper{
+	height:51px;
+}
+#rit-logo {
+	margin-top: -15px;
+	margin-left: -15px;
+    height:50px;
+}
+#metaRitHeader{
+	margin-left:50px;
+	width:400px;
+	background-color:#000000;
+}
+
+#ritMetanavWrapper a{
+	color:#000000;
+}
+
+#metaritlogo{
+	width:90px;
+	margin-top:-5px;
+}
+
+#metarit{
+	font-family:Times;
+	font-size:18px;
+	margin-top:13px;
+	color: #ffffff;
+	background-color:#000000;
+}
+
+#metaritRight{
+}
+.whitelogo {
+	background-color:#000000;
+}
+#ritmetaSearch{
+	height:38px;
+}
+#ritheader {
+	background-color:#000000;
+}
+#ritdirectories {
+	color:#FFFFFF;
+}
+#ritdirectories a{
+	color:#FFFFFF;
+}
+#ritdirectories a:link{
+	color:#FFFFFF;
+}
+#ritdirectories a:visited{
+	color:#FFFFFF;
+}
+.navbar-brand  a:hover {
+	cursor:pointer;
+	background-color:#000000;
+}
+.ritnav > li > a:hover{
+	background-color: #000000;
+	text-decoration: underline;
+}

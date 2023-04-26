@@ -1,0 +1,37 @@
+#metanav {background-image:none;margin:0; padding:0;width:100%;height:51px;clear:right;font-family:Helvetica, Arial, sans-serif;color:#FFF;background:#000;position:relative;font-size:85%;}
+#metanav ul {margin:20px 9px 0 0; padding: 0; float:right;}
+#metanav ul li {float:left; list-style-type:none; padding:0 0 0 30px; border:0;}
+#metanav a:link, #metanav a:visited {color:#FFF; background-color: transparent; text-decoration:none;}
+#metanav a:hover {color:#FFF; background-color: transparent;text-decoration:underline;}
+#metanav a:active {color:#FFF; background-color: transparent;text-decoration:none;}
+#metanav p, #metaskip { position: absolute; left: -1999px;}
+
+#metanav #metaritsearch {margin-right:15px;}
+#metanav #metaritsearch a, #metarithometext {display:block;text-indent:-5000px;width:1px;height:1px;overflow:hidden;}
+
+#metanav a span#metaritlogo {
+padding:0;margin:0;left:0;top:0;display:block;
+position:absolute;left:0;top:0;width:375px;height:51px;
+background: url(https://www.rit.edu/framework/v0/images/idbar-black.gif) no-repeat;border:none;cursor:pointer;}
+
+#metanav #metasearchform {border: none;width: 135px;height:16px;margin-top: -0.35em;padding:3px 0 0 3px;background: #000000 url(http://www.rit.edu/framework/v0/images/idbar-black-search.gif) no-repeat;}
+#metanav #metasearchform input, #metasearchform button { border: none;float: left;-webkit-appearance: none;}
+#metanav #metaritsearchbox {	color: #000;width:114px;height: 14px;padding: 0;margin:0;border: none;background: #FFF;outline: 0;}
+#metanav #metaritsearchbox.faded {color:#AAA;}
+#metanav #metaritsearchbox.focused {color:#000;}
+#metanav #metasearchform button { width: 16px;height: 13px;cursor: pointer;text-indent: -9999px;background: #FFF url(http://www.rit.edu/framework/v0/images/idbar-black-search-magnify.gif) no-repeat;}
+
+#metanav #metasearchform, #metanav #metasearchform div {display:block;}
+
+
+#metanav #metasearchform {padding-left:4px;}
+#metanav #metaritsearchbox {width:111px;}
+
+#ritfooter{
+    background-color: #000000;
+    color:#ffffff;
+    padding:10px;
+}
+#ritfooter a {
+    color: #919191;
+}
