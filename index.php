@@ -27,8 +27,11 @@
         <div id="titles">
             <div id="uni">Rochester Institute of Technology</div>
             <div id="org">Women in Computing</div>
+            <br>
+            <!-- <div class="sectionText"><b>Interested in ROCGirlHacks? Click <span style="color:var(--accent); font-weight:700"><a href="/rocgirlhacks.php">here</a></span>!</b></div> -->
         </div>
     </header>
+    
 
     <section id="intro">
         <div class="sectionTitle">About Us</div>
@@ -49,37 +52,38 @@
 
                 <div class="eventTime">
                     <div class="eventType">General Meeting</div>
-                    <div class="eventInfo">WED • 6:30PM - 7:30pm • <a href="https://rit.zoom.us/j/95720210350">Zoom</a> <br /> GOL-2400 </div>
+                    <!-- TODO -->
+                    <div class="eventInfo">WED • 6:30PM - 7:30pm • <!-- ADD ZOOM LINK IF THERE IS ONE--> GOL-2400 </div>
                 </div>
 
                 <div class="eventTime">
                     <div class="eventType">Events Committee</div>
-                    <div class="eventInfo">FRI • 5:30pm - 6:30pm • GOL-2500</div>
+                    <div class="eventInfo">TBD</div>
                 </div>
 
                 <div class="eventTime">
                     <div class="eventType">Outreach Committee</div>
-                    <div class="eventInfo">TUES • 6:30pm - 7:30pm • GOL-2400 • Zoom</div>
+                    <div class="eventInfo">TBD</div>
                 </div>
 
                 <div class="eventTime">
                     <div class="eventType">Public Relations Committee</div>
-                    <div class="eventInfo">MON • 5pm - 6pm • GOL-2400</div>
+                    <div class="eventInfo">TBD</div>
                 </div>
 
                 <div class="eventTime">
                     <div class="eventType">Allies Committee</div>
-                    <div class="eventInfo">THUR • 6:30pm - 7:30pm • GOL-2500 • Zoom</div>
+                    <div class="eventInfo">TBD</div>
                 </div>
 
                 <div class="eventTime">
                     <div class="eventType">WiCHacks Committee</div>
-                    <div class="eventInfo">THUR • 6:00pm - 7:00pm • GOL-1455 • Zoom</div>
+                    <div class="eventInfo">TBD</div>
                 </div>
 
                 <div class="eventTime">
                     <div class="eventType">Projects Committee</div>
-                    <div class="eventInfo">FRI • 4pm - 5pm • GOL-2500</div>
+                    <div class="eventInfo">TBD</div>
                 </div>
 
                 <!--end of newEvents (left)-->
@@ -88,19 +92,13 @@
             <div class="newEvents">
 
                 <div class="sectionTitle">Upcoming Events</div>
-                <div class="line"></div>
+                <!-- EVENT TEMPLATE -->
+                <!-- <div class="line"></div>
                 <div class="eventTime">
-                    <div class="eventType">After Hours</div>
-                    <div class="eventInfo">March 25th, 2023</div>
-                </div>
-                <div class="eventTime">
-                    <div class="eventType">Bob Ross Paint Night</div>
-                    <div class="eventInfo">March 29th, 2023</div>
-                </div>
-                <div class="eventTime">
-                    <div class="eventType">PowerPoint Karaoke!</div>
-                    <div class="eventInfo">April 5th, 2023</div>
-                </div>
+                    <div class="eventType"> *EVENT NAME* </div>
+                    <div class="eventInfo"> *EVENT DATE* </div>
+                </div> -->
+                
                 <div class="line"></div>
                 <div class="eventTime">
                     <div class="eventType">Co-op Series Form</div>
@@ -126,6 +124,10 @@
                 <div class="sectionTitle">Featured News</div>
                 <div class="line"></div>
 
+                <div class="eventTime">
+                    <div class="eventInfo"><a href="https://foxrochester.com/news/good-day-rochester/hack-the-planet-rits-all-girl-programming-event-returns-this-fall">Hack the planet: RIT's all-girl programming event returns this fall</a></div>
+                </div>
+                
                 <div class="eventTime">
                     <div class="eventInfo"><a href="https://www.rit.edu/news/free-hackathon-girls-grades-6-12-sponsored-carrier-and-rits-women-computing">Free hackathon for girls grades 6-12 sponsored by Carrier</a></div>
                 </div>

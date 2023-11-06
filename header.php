@@ -144,6 +144,7 @@
                             <a href="<?php echo $level ?>events.php" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EVENTS<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="<?php echo $level ?>afterhours.php" title="">AFTER HOURS</a></li>
+                                <li><a href="<?php echo $level ?>rocgirlhacks.php" title="">ROCGIRL HACKS</a></li>
                                 <li><a href="<?php echo $level ?>events.php" title="">UPCOMING CALENDAR</a></li>
                                 <li><a href="<?php echo $level ?>wichacks.php" title="">WICHACKS</a></li>
                                 <li><a href="<?php echo $level ?>annual_events.php" title="">ANNUAL EVENTS</a></li>

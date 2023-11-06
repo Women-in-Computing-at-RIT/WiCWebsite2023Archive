@@ -23,6 +23,7 @@
             <a style="margin:0;" href="#">Events</a>
             <div class="navhover">
                 <a href="/afterhours.php">After Hours</a>
+                <a href="/rocgirlhacks.php">ROCGirl Hacks</a>
                 <a href="/events.php">Upcoming Calendar</a>
                 <a href="/wichacks.php">WiCHacks</a>
                 <a href="/annual_events.php">Annual Events</a>

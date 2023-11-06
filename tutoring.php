@@ -31,7 +31,7 @@
         <div style="margin-bottom:1.5em;" class="pgline"></div>
 
         <div class="imgShowcase">
-            <img src="img/tutoring/Spring2023TutoringHours.png">
+            <img src="img/tutoring/Fall2023Tutoring.png">
         </div>
 
         

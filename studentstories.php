@@ -50,9 +50,6 @@
                                             <center><img class="ssimg" src="img/studentstories/asia21.png"></center>
                                         </div>
                                         <div class="item">
-                                            <center><img class="ssimg" src="img/studentstories/jackiee21.png"></center>
-                                        </div>
-                                        <div class="item">
                                             <center><img class="ssimg" src="img/studentstories/shannon21.png"></center>
                                         </div>
                                         <div class="item">
@@ -72,9 +69,6 @@
                                         </div>
                                         <div class="item">
                                             <center><img class="ssimg" src="img/studentstories/jessi21.png"></center>
-                                        </div>
-                                        <div class="item">
-                                            <center><img class="ssimg" src="img/studentstories/jackie21.png"></center>
                                         </div>
                                         <div class="item">
                                             <center><img class="ssimg" src="img/studentstories/dan21.png"></center>

@@ -33,21 +33,28 @@
         <p>
             <b>What is Women in Computing at RIT?</b>
         <ul>
-            <li>WiC is an evolving professional organization within the RIT community. WiC is an inclusive organization which supports all interested in computing while promoting the success and advancement of women in the field. WiC inspires confidence in our members by fostering personal growth and professional development</li>
+            <li>WiC is an evolving professional organization within the RIT community. WiC is an inclusive organization which supports all interested in computing while promoting the success and advancement of women in the field. WiC inspires confidence in our members by fostering personal growth and professional development.</li>
+        </ul>
+        </p>
+        <p>
+            <b>Who can participate in Women in Computing events?</b>
+        <ul>
+            <li>Participation is open to all regardless of any protected category, including sex, gender, gender identity, race, color, and/or national origin.
+</li>
         </ul>
         </p>
 
         <p>
             <b>How do I join WiC?</b>
         <ul>
-            <li>Come to one of our General Meetings every Wednesday or stop by the WiC space (GOL-2350)</li>
+            <li>Come to one of our General Meetings every Wednesday or stop by the WiC space (GOL-2350).</li>
         </ul>
         </p>
 
         <p>
             <b>How do I become a General Member?</b>
         <ul>
-            <li>Attend at least half of the general meetings</li>
+            <li>Attend at least half of the general meetings.</li>
         </ul>
         </p>
 
@@ -68,14 +75,14 @@
         <p>
             <b>What are the benefits of Active Membership?</b>
         <ul>
-            <li>Attend conferences, WiC Jacket, priority to networking with university recruiters and alumni, Leadership Opportunities and present at panels</li>
+            <li>Attend conferences, WiC Jacket, priority to networking with university recruiters and alumni, Leadership Opportunities and present at panels.</li>
         </ul>
         </p>
 
         <p>
             <b>Where is the WiC Space and when is it open?</b>
         <ul>
-            <li>The WiC space is located in GOL-2350, the second floor of Golisano. Just follow the signs and come say hi! It’s open from 9am - 4pm and various times at night</li>
+            <li>The WiC space is located in GOL-2350, the second floor of Golisano. Just follow the signs and come say hi! It’s open from 9am - 4pm and various times at night.</li>
         </ul>
         </p>
 
@@ -84,12 +91,6 @@
             <img src="img/faq4.jpeg">
         </div>
 
-        <p>
-            <b>I am a man or use male pronouns, can I still join WiC?</b>
-        <ul>
-            <li>Of course, but some limits apply such as you will not be able to volunteer overnight at After Hours. During the afternoon you are welcomed though. There are also some women only events you will be unable to participate in such as WiCHacks (you can volunteer though) or applying for scholarships like Grace Hopper.</li>
-        </ul>
-        </p>
 
         <p>
             <b>I am non-binary or do not use female pronouns, can I still join WiC?</b>

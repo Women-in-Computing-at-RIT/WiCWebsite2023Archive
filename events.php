@@ -15,6 +15,7 @@
 
         <div id="sidebarlinks">
             <a href="/afterhours.php">After Hours</a><br>
+            <a href="/rocgirlhacks.php">ROCGirl Hacks</a><br>
             <a style="color:var(--accent); font-weight:700" href="/events.php">Upcoming Calendar</a><br>
             <a href="/wichacks.php">WiCHacks</a><br>
             <a href="/annual_events.php">Annual Events</a>
